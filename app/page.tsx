@@ -1,12 +1,12 @@
-import Image from 'next/image'
+import Image from & apos; next / image & apos
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-24 bg-slate-950">
       <section className="text-center leading-7 text-lg">
         <h1 className="text-4xl font-bold mb-4">TaskSheet+</h1>
-        <p>Hello and thank you for taking a moment to look at my response to the initial task. I wanted to be a little different and not send a plain ole' file.</p>
-        <p>I'm <b>Earl</b> and it is my honor to be able to take part in this task and for the chance to apply for your company!</p>
+        <p>Hello and thank you for taking a moment to look at my response to the initial task. I wanted to be a little different and not send a plain ole&apos; file.</p>
+        <p>I&apos;m <b>Earl</b> and it is my honor to be able to take part in this task and for the chance to apply for your company!</p>
       </section>
       <section className="flex flex-col gap-4">
         <article className="border border-slate-800 rounded p-4 w-full">
@@ -29,11 +29,11 @@ export default function Home() {
           <h1 className="font-bold text-xl mb-4">A website seems to be down, server resources are high and the website is most likely
             infected. How would you identify if it’s an infection and possible ways of clearing it up?</h1>
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
-          <p>For this, I would check for unauthorized or suspicious code in the website's files and remove them. I would scan through the code to see if any odd changes were made and remove any code that was inserted. I would also look at logs to see if I can identify how the malicious code or so got in.</p>
+          <p>For this, I would check for unauthorized or suspicious code in the website&apos;s files and remove them. I would scan through the code to see if any odd changes were made and remove any code that was inserted. I would also look at logs to see if I can identify how the malicious code or so got in.</p>
         </article>
         <article className="border border-slate-800 rounded p-4 w-full">
           <small className="text-red-600 font-bold uppercase">Question 4:</small>
-          <h1 className="font-bold text-xl mb-4">What would you suggest if a customer’s site is continuously under a DDOS attack? Make
+          <h1 className="font-bold text-xl mb-4">What would you suggest if a customer&apos;s site is continuously under a DDOS attack? Make
             an email reply.</h1>
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
           <div>
@@ -54,8 +54,8 @@ export default function Home() {
           <p>I would do the following</p>
           <ol>
             <li>1. Backup the database</li>
-            <li>2. Update the "siteurl" and "home" values in the wp_options table for both sites.</li>
-            <li>3. Update the domain mapping in the site's settings.</li>
+            <li>2. Update the &quot;siteurl&quot; and &quot;home&quot; values in the wp_options table for both sites.</li>
+            <li>3. Update the domain mapping in the site&apos;s settings.</li>
             <li>4. Update the .htaccess file with the new domain.</li>
             <li>5. Update the DNS settings for the domains.</li>
             <li>and update any SSL certificates with the new domain. Granted this process can vary depending on server setup.</li>
@@ -96,7 +96,7 @@ export default function Home() {
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
           <p>I would inform them that is is a security risk to make files/folders full permission and I would try to get more details to help offer a different approach if possible. However, if absolutely needed then I would update the permissions for them from the File Manager or in terminal with the `chmod` command</p>
           <div className="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-2 rounded-md mt-2">
-            <p>Dear [Customer's Name],</p>
+            <p>Dear [Customer&apos;s Name],</p>
             <p>Granting 777 permissions is a security risk and not recommended. However, we can assist you in finding a secure alternative to meet your needs. Please provide more details about the specific requirements so that we can offer the most suitable solution.</p>
             <p>Best regards,<br />Earl Balai (Technical Support)</p>
           </div>
