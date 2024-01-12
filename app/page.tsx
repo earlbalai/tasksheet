@@ -20,7 +20,7 @@ export default function Home() {
             wrong ownership. Our user:group is www-data:www-data. What actions should be
             taken?</h1>
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
-          <p>If I have SSH access on the server I would SSH in and `cd` into the WordPress directory and run the following command `sudo chown -R www-data:www-data .` but if I do not have SSH access then I will use the file management section in CPanel to fix the ownership permissions using the "Change Permission" or "Permission" option in the menu. Though SSH I would highly recommend.</p>
+          <p>If I have SSH access on the server I would SSH in and `cd` into the WordPress directory and run the following command `sudo chown -R www-data:www-data .` but if I do not have SSH access then I will use the file management section in CPanel to fix the ownership permissions using the &quot;Change Permission&quot; or &quot;Permission&quot; option in the menu. Though SSH I would highly recommend.</p>
         </article>
         <article className="border border-slate-800 rounded p-4 w-full">
           <small className="text-red-600 font-bold uppercase">Question 3:</small>
@@ -94,7 +94,7 @@ export default function Home() {
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
           <p>I would inform them that is is a security risk to make files/folders full permission and I would try to get more details to help offer a different approach if possible. However, if absolutely needed then I would update the permissions for them from the File Manager or in terminal with the `chmod` command</p>
           <div className="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-2 rounded-md mt-2">
-            <p>Dear [Customer&apos;s Name],</p>
+            <p>Dear X,</p>
             <p>Granting 777 permissions is a security risk and not recommended. However, we can assist you in finding a secure alternative to meet your needs. Please provide more details about the specific requirements so that we can offer the most suitable solution.</p>
             <p>Best regards,<br />Earl Balai (Technical Support)</p>
           </div>
