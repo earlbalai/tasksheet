@@ -25,7 +25,7 @@ export default function Home() {
         <article className="border border-slate-800 rounded p-4 w-full">
           <small className="text-red-600 font-bold uppercase">Question 3:</small>
           <h1 className="font-bold text-xl mb-4">A website seems to be down, server resources are high and the website is most likely
-            infected. How would you identify if it’s an infection and possible ways of clearing it up?</h1>
+            infected. How would you identify if it&apos;s an infection and possible ways of clearing it up?</h1>
           <small className="text-blue-600 font-bold uppercase">Answer:</small>
           <p>For this, I would check for unauthorized or suspicious code in the website&apos;s files and remove them. I would scan through the code to see if any odd changes were made and remove any code that was inserted. I would also look at logs to see if I can identify how the malicious code or so got in.</p>
         </article>
